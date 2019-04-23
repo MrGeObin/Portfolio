@@ -24,6 +24,11 @@ body {
     font-size: 12.4px
 }
 
+.btn-primary {
+    border-color: var(--indigo);
+    color: var(--creme);
+    font-size: 1.3em;
+}
 .nav-link:hover {
     color: var(--creme);
     /* font-weight: 600; */
