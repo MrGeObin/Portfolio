@@ -67,27 +67,46 @@ body {
 }
 
 /* skill section */
+.title-skills {
+    background-color: var(--indigo);
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 10px;
+    color: var(--light-gray);
 
+
+}
 .skill-sec {
     border-radius: 10px;
     position: relative;
     bottom: -90px;
     background: var(--light-gray);
-    box-shadow: 0 20px 80px 0 rgba(153, 153, 153, 0.5);
     color: var(--charcoal);
     padding-bottom: 28px;
+    margin-bottom: 100px;
 }
 
-.bar1 {
-    background-color: green;
-}
-.bar2 {
-    background-color: yellow;
-    color: var(--charcoal); 
-}
-.bar3 {
-    background-color: red;
+.bar {
+    background-color: var(--coffe);
 }
 
+/* portfolio section */
 
+.card {
+    max-width: 360px;
+    margin-bottom: 10px;
+}
 
+.icon-card {
+    font-size: 20px;
+}
+
+.btn {
+    background-color: var(--indigo); 
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--indigo);
+    height: 50px;
+}
