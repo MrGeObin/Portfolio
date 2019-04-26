@@ -17,13 +17,13 @@
     <!-- Header -->
     <header class="header-area fixed-top text-white">
         <div class="main-menu">
-            <button class="btn btn-primary btn-collape" type="button" data-toggle="collapse" data-target="#nav"
+            <button class="btn btn-primary btn-collape float-right" type="button" data-toggle="collapse" data-target="#nav"
                 aria-expanded="false" aria-controls="collapseExample">
                 <i class="fas fa-bars" id="menu"></i>
             </button>
             <nav class="navbar collapse" id="nav">
                 <div class="container ">
-                    <ul class="nav ml-auto mr-auto mr-md-0">
+                    <ul class="nav ml-auto mr-auto mr-md-0 flex-md-column justify-content-md-center flex-lg-row">
                         <li class="nav-item">
                             <a class="nav-link" href="#main-info">Principal</a>
                         </li>
@@ -31,14 +31,10 @@
                             <a class="nav-link" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#education">Education</a>
+                            <a class="nav-link" href="#portfolio-section">Projects</a>
                         </li>
-                        <li class="nav-item submenu dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects </a>
-                            <ul class="header-area dropdown-menu">
-                                <li class="nav-item"><a class="nav-link" href="#portfolio-section">Portfolio</a></li>
-                                <li class="nav-item"><a class="nav-link" href="https://github.com/MrGeObin">GitHub</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -68,9 +64,9 @@
                             <li><i class="fas fa-map-marker-alt"></i>United States</li>
                         </ul>
                         <ul class="list-inline social-nw">
-                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/elmer-obin-029817137/"><i class="fab fa-linkedin"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/elmer-obin-029817137/"><i class="fab fa-linkedin" style="color: blue;" ></i></a></li>
                             <li class="list-inline-item"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-                            <li class="list-inline-item"><a href="https://github.com/MrGeObin"><i class="fab fa-github"></i></a></li>
+                            <li class="list-inline-item"><a href="https://github.com/MrGeObin"><i class="fab fa-github" style="color: black;"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -80,8 +76,8 @@
 
     <!-- skills section -->
     <section class="skill-sec container-fluid" id="skills">
-        <h3 class="title-skills text-center pt-3">Skills</h3>
         <div class="container">
+        <h3 class="title-skills text-center pt-3">Skills</h3>
             <h4>HTML5</h4>
             <div class="progress">
                 <div class="bar progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
@@ -93,32 +89,35 @@
                 <div class="bar progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
                 aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
             </div>
-            <div class="container sub-bar">
-                <h5 class="pt-3">BOOSTRAP 4</h5>
-                <div class="progress">
-                    <div class="bar progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                        aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
-                </div>
-            </div>
+           
             <h4 class="pt-3">JAVASCRIPT</h4>
             <div class="progress">
                 <div class="bar progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                aria-valuemin="0" aria-valuemax="100" style="width: 25%">25%</div>
+                aria-valuemin="0" aria-valuemax="100" style="width: 35%">Learning...</div>
             </div>
+
+            <h3 class="title-skills text-center pt-3 mt-4">Otros</h3>
             <h4 class="pt-3">Git & GitHub</h4>
             <div class="progress">
                 <div class="bar progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
-                aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
+                aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
             </div>
+
+            <h4 class="pt-3">Bootstrap4</h4>
+            <div class="progress">
+                <div class="bar progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+            </div>
+            
         </div>
     </section>
 
     <!-- Projects -->
     <section class="project-sec" id="portfolio-section">
-        <div class="container">
+        <div class="container d-grid">
             <h3 class="text-center title-skills">Projects</h3>
             <div class="card-container d-flex flex-wrap justify-content-around align-items-center">        
-                <div class="card">
+                <div class="card col-12 col-md-6 col-xl-6">
                     <div class="card-body">
                         <i class="fa fa-credit-card"></i>
                         <h5 class="card-title">Sistema de Pago</h5>
@@ -127,7 +126,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card col-12 col-md-6 col-xl-6">
                     <div class="card-body">
                         <i class="fa fa-credit-card"></i>
                         <h5 class="card-title">Sistema de Pago</h5>
@@ -136,7 +135,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card col-12 col-md-6 col-xl-6">
                     <div class="card-body">
                         <i class="fa fa-credit-card"></i>
                         <h5 class="card-title">Sistema de Pago</h5>
@@ -145,9 +144,9 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card col-12 col-md-6 col-xl-6">
                     <div class="card-body">
-                        <i class="fa fa-credit-card icon-card"></i>
+                        <i class="fa fa-credit-card"></i>
                         <h5 class="card-title">Sistema de Pago</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo vitae laudantium optio quia officia aliquam eligendi, quaerat ipsa cupiditate dolorum necessitatibus modi, exercitationem labore tempora. Fuga perspiciatis esse fugiat est?</p>
                         <a href="#" class="btn btn-primary">Go to website</a>
@@ -156,8 +155,17 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
 
+    <!-- footer  -->
+
+    <footer class="footer" id="contact">
+        <div class="container">
+            <address>
+                <ul class="list-unstyled pt-3 float-right">
+                    <li><i class="far fa-envelope"></i>  e-mail: <a class="email" href="mailto:mrgeobin@gmail.com">mrgeobin@gmail.com</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
 
     <!-- Javascript -->

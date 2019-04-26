@@ -47,7 +47,7 @@ body {
     background: var(--light-gray);
     padding-top: 28px;
     padding-bottom: 28px;
-    box-shadow: 0 20px 80px 0 rgba(153, 153, 153, 0.3);
+    /* box-shadow: 0 20px 80px 0 rgba(153, 153, 153, 0.3); */
     color: var(--charcoal);
 }
 .main-info .container .img-col .img-container > img {
@@ -78,16 +78,16 @@ body {
 .title-skills {
     background-color: var(--indigo);
     border-radius: 0 0 10px 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     color: var(--light-gray);
 
 
 }
 .skill-sec {
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     position: relative;
     bottom: -90px;
-    background: var(--light-gray);
+    background: var(--light-gray);  
     color: var(--charcoal);
     padding-bottom: 28px;
     margin-bottom: 100px;
@@ -101,20 +101,30 @@ body {
 
 .card {
     max-width: 360px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+    color: var(--charcoal);
 }
 
-.icon-card {
-    font-size: 20px;
-}
 
 .btn {
     background-color: var(--indigo); 
+    color: var(--light-gray);
 }
 
 /* footer */
 
 .footer {
     background-color: var(--indigo);
-    height: 50px;
+    height: 55px;
+    color: var(--light-gray);
+    font-size: 1.1em;
+}
+
+.email {
+    color: var(--light-gray);
+}
+
+.email:hover {
+    color: var(--creme);
+    text-decoration: none;
 }
