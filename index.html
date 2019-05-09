@@ -15,17 +15,16 @@
 
 <body>
     <!-- Header -->
-    <header class="header-area fixed-top text-white">
-        <div class="main-menu">
-            <button class="btn btn-primary btn-collape float-right" type="button" data-toggle="collapse" data-target="#nav"
-                aria-expanded="false" aria-controls="collapseExample">
-                <i class="fas fa-bars" id="menu"></i>
-            </button>
-            <nav class="navbar collapse" id="nav">
-                <div class="container ">
-                    <ul class="nav ml-auto mr-auto mr-md-0 flex-md-column justify-content-md-center flex-lg-row">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#main-info">Principal</a>
+    <header>
+            <!-- <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="nav navbar-nav mt-2 mr-auto mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#main-info">Home<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#skills">Skills</a>
@@ -38,9 +37,31 @@
                         </li>
                     </ul>
                 </div>
-            </nav>
-        </div>
-
+            </nav> -->
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">Geovanni Obin</a>
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
     </header>
 
     <!-- Main info -->
